@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(90deg, rgba(114,176,176,1) 0%, rgba(189,232,232,1) 50%, rgba(114,176,176,1) 100%);
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 3rem;
+  margin: 5% auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5%;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+}
+
+h4 {
+  color: #66BFBF;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+  @media only screen and (min-width: 960px) {
+      /* styles for browsers larger than 960px; */
+  }
+  @media only screen and (min-width: 1440px) {
+      /* styles for browsers larger than 1440px; */
+  }
+  @media only screen and (min-width: 2000px) {
+      /* for sumo sized (mac) screens */
+  }
+  @media only screen and (max-device-width: 480px) {
+     /* styles for mobile browsers smaller than 480px; (iPhone) */
+  }
+  @media only screen and (device-width: 768px) {
+     /* default iPad screens */
+  }
+  /* different techniques for iPad screening */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+  }
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+  }
+
+
+
+table {
+  width: 75%;
+  margin: 5% auto 5% auto;
+  text-align: left;
+}
+
+td {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+.shift-right {
+  text-align: right;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5% 5%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 5% auto 5% auto;
+}
+
+.content {
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  display: inline-block;
+  min-width: 100%;
+  margin-bottom: 5rem;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+
+.skill-row {
+  width: 75%;
+  margin: 5% auto 5% auto;
+  text-align: left; 
+}
+
+.imgP {
+  width:100%;
+  border-radius: 10px;
+}
+
+.navbar { 
+  overflow: hidden; 
+  position: fixed; 
+  bottom: 0; 
+  width:100%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(114,176,176,1) 0%, rgba(189,232,232,1) 50%, rgba(114,176,176,1) 100%);
+}
+
+.navbar a {
+  text-align: center;
+  display: inline-block;
+  padding: 14px 40px;
+  text-decoration: none;
+  margin: 0px auto;
+}
