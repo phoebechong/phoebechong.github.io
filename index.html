@@ -6,81 +6,127 @@
   <title>Phoebe Chong's CV</title>
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://kit.fontawesome.com/cf8494483d.js" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-  <div class="wrapper">
-    <div class="content">
-      <h1>Phoebe Chong</h1>
-      <h2>Curriculum Vitae 2023</h2>
+<body class="is-preload">
+
+  <!-- Wrapper-->
+    <div id="wrapper">
+
+      <!-- Nav -->
+        <nav id="nav">
+          <a href="#" class="icon solid fa-home"><span>Home</span></a>
+          <a href="projects" class="icon solid fa-folder"><span>Projects</span></a>
+          <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+        </nav>
+
+      <!-- Main -->
+        <div id="main">
+
+          <!-- Me -->
+            <article id="home" class="panel intro">
+              <header>
+                <h1>Phoebe Chong</h1>
+                <p>Curriculum Vitae 2023</p>
+              </header>
+              <h2>Education</h2>
+              <h3>Carleton University</h3>
+              <h4>January 2020 - Present</h4>
+              <ul>
+                <li>3rd year of Bachelor of Information Technology program</li>
+                <li>Major in Information Resource Management</li>
+              </ul>
+              <h3>University of British Columbia</h3>
+              <h4>September 2017-December 2018</h4>
+              <ul>
+                <li>1st and 2nd year of Bachelor of Arts program</li>
+                <li>Major in Political Science</li>
+              </ul>
+              <h2>Employment</h2>
+              <h3>Treasury Board Secretariat</h3>
+              <h4>July 2019 - Present</h4>
+              <ul>
+                <li>Processed a high volume of data entry with accuracy and efficiency using MS Excel and CRM</li>
+                <li>Conducted research to analyze claims in accordance with Government of Canada agreements</li>
+                <li>Complied with Government of Canada retention and filing policies to ensure the security of sensitive information</li>
+                <li>Performed quality assurance testing for new IT processes</li>
+                <li>Corresponded with department officers concerning claims policies</li>
+                <li>Scheduled meetings with MS Outlook and prepared meeting documents</li>
+              </ul>
+              <h3>Tacomio</h3>
+              <h4>September 2018 - April 2019</h4>
+              <ul>
+                <li>Trusted with handling transactions at the cash register and compiling the sales report accurately and efficiently during closing</li>
+                <li>Cheerful, professional engagement of customers</li>
+                <li>Coordinated with coworkers to ensure efficient completion of food service processes</li>
+                <li>Developed time management skills in order to fulfill my both of my commitments as a full-time student and as a part time worker</li>
+              </ul>
+              <a href="#projects" class="jumplink pic">
+                <span class="arrow icon solid fa-chevron-right"><span>See my projects</span></span>
+                <img src="images/me.jpg" alt="" />
+              </a>
+            </article>
+
+            <article id="projects" class="panel">
+              <header>
+                <h2>Projects</h2>
+              </header>
+              <h3>Book Sharing App</h3>
+              <h4>November 2022</h4>
+              <ul>
+                <li>User authentication with Django</li>
+                <li>Database implemented with Postgres</li>
+              </ul>
+              <h3>Canadian University Course Equvalency Database</h3>
+              <h4>WIP</h4>
+              <ul>
+                <li>Web Scraping with Python</li>
+                <li>Machine Learning with Python</li>
+                <li>Database implemetation to be determined</li>
+              </ul>
+            </article>
+
+          <!-- Contact -->
+            <article id="contact" class="panel">
+              <header>
+                <h2>Contact Me</h2>
+              </header>
+              <form action="#" method="post">
+                <div>
+                  <div class="row">
+                    <div class="col-6 col-12-medium">
+                      <input type="text" name="name" placeholder="Name" />
+                    </div>
+                    <div class="col-6 col-12-medium">
+                      <input type="text" name="email" placeholder="Email" />
+                    </div>
+                    <div class="col-12">
+                      <input type="text" name="subject" placeholder="Subject" />
+                    </div>
+                    <div class="col-12">
+                      <textarea name="message" placeholder="Message" rows="6"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <input type="submit" value="Send Message" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </article>
+
+        </div>
+
     </div>
 
+  <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-    <div class="content">
-      <h1>Education</h1>
-      <div class="skill-row">
-        <h3>Carleton University</h3>
-        <h4>January 2020 - Present</h4>
-        <ul>
-          <li>3rd year of Bachelor of Information Technology program</li>
-          <li>Major in Information Resource Management</li>
-        </ul>
-      </div>
-      <div class="skill-row">
-        <h3>University of British Columbia</h3>
-        <h4>September 2017-December 2018</h4>
-        <ul>
-          <li>1st and 2nd year of Bachelor of Arts program</li>
-          <li>Major in Political Science</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="content">
-      <h1>Employment</h1>
-      <div class="skill-row">
-        <h3>Treasury Board Secretariat</h3>
-        <h4>July 2019 - Present</h4>
-        <ul>
-          <li>Processed a high volume of data entry with accuracy and efficiency using MS Excel and CRM</li>
-          <li>Conducted research to analyze claims in accordance with Government of Canada agreements</li>
-          <li>Complied with Government of Canada retention and filing policies to ensure the security of sensitive information</li>
-          <li>Performed quality assurance testing for new IT processes</li>
-          <li>Corresponded with department officers concerning claims policies</li>
-          <li>Scheduled meetings with MS Outlook and prepared meeting documents</li>
-        </ul>
-      </div>
-      <div class="skill-row">
-        <h3>Tacomio</h3>
-        <h4>September 2018 - April 2019</h4>
-        <ul>
-          <li>Trusted with handling transactions at the cash register and compiling the sales report accurately and efficiently during closing</li>
-          <li>Cheerful, professional engagement of customers</li>
-          <li>Coordinated with coworkers to ensure efficient completion of food service processes</li>
-          <li>Developed time management skills in order to fulfill my both of my commitments as a full-time student and as a part time worker</li>
-        </ul>
-      </div>
-  </div>
-</div>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-        <a class="nav-link" href="portfolio.html"><i class="fa fa-pencil fa-fw" ></i></a>
-        <a class="nav-link" href="contact.html"><i class="fa-solid fa-envelope"></i></a>
-      </div>
-    </div>
 </body>
 </html>
