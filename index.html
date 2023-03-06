@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Phoebe Chong's CV</title>
   <link rel="icon" type="image/png" href="images/favicon.png">
-
+  <script src="https://kit.fontawesome.com/cf8494483d.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -19,34 +19,66 @@
       <!-- Nav -->
         <nav id="nav">
           <a href="#" class="icon solid fa-home"><span>Home</span></a>
-          <a href="projects" class="icon solid fa-folder"><span>Projects</span></a>
+          <a href="#edu" class="icon solid fa-folder"><span>Education</span></a>
+          <a href="#employ" class="icon solid fa-folder"><span>Employment</span></a>
           <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
         </nav>
 
       <!-- Main -->
         <div id="main">
-
-          <!-- Me -->
             <article id="home" class="panel intro">
               <header>
                 <h1>Phoebe Chong</h1>
-                <p>Curriculum Vitae 2023</p>
-                <h2>Education</h2>
+                <p>Curriculum Vitae 2023</p> 
+              </header>
+              <a href="#edu" class="jumplink pic">
+                <span class="arrow icon solid fa-chevron-right"><span>Continue</span></span>
+                <img src="images/me.jpg" alt="" />
+              </a>
+            </article>
+
+            <article id="edu" class="panel">
+              <header>
+              </header>
+              <h2>Education</h2>
+                <br>
                 <h3>Carleton University</h3>
-                <h4>January 2020 - Present</h4>
-                <ul>
-                  <li>3rd year of Bachelor of Information Technology program</li>
-                  <li>Major in Information Resource Management</li>
-                </ul>
+                  <p>January 2020 - Present</p>
+                  <ul>
+                    <li>3rd year of Bachelor of Information Technology program</li>
+                    <li>Major in Information Resource Management</li>
+                  </ul>
                 <h3>University of British Columbia</h3>
-                <h4>September 2017-December 2018</h4>
-                <ul>
-                  <li>1st and 2nd year of Bachelor of Arts program</li>
-                  <li>Major in Political Science</li>
-                </ul>
+                  <p>September 2017-December 2018</p>
+                  <ul>
+                    <li>1st and 2nd year of Bachelor of Arts program</li>
+                    <li>Major in Political Science</li>
+                  </ul>
+
+              <h2>Projects</h2>
+              <br>
+                <h3>Book Sharing App</h3>
+                  <p>November 2022</p>
+                  <ul>
+                    <li>User authentication with Django</li>
+                    <li>Database implemented with Postgres</li>
+                  </ul>
+                <h3>Canadian University Course Equvalency Database</h3>
+                  <h4>WIP</h4>
+                  <ul>
+                    <li>Web Scraping with Python</li>
+                    <li>Machine Learning with Python</li>
+                    <li>Database implemetation to be determined</li>
+                  </ul>
+            </article>
+
+            <article id="employ" class="panel">
+              <header>
+              </header>
                 <h2>Employment</h2>
+                <br>
                 <h3>Treasury Board Secretariat</h3>
-                <h4>July 2019 - Present</h4>
+                <p>July 2019 - Present</p>
                 <ul>
                   <li>Processed a high volume of data entry with accuracy and efficiency using MS Excel and CRM</li>
                   <li>Conducted research to analyze claims in accordance with Government of Canada agreements</li>
@@ -56,70 +88,60 @@
                   <li>Scheduled meetings with MS Outlook and prepared meeting documents</li>
                 </ul>
                 <h3>Tacomio</h3>
-                <h4>September 2018 - April 2019</h4>
+                <p>September 2018 - April 2019</p>
                 <ul>
                   <li>Trusted with handling transactions at the cash register and compiling the sales report accurately and efficiently during closing</li>
                   <li>Cheerful, professional engagement of customers</li>
                   <li>Coordinated with coworkers to ensure efficient completion of food service processes</li>
                   <li>Developed time management skills in order to fulfill my both of my commitments as a full-time student and as a part time worker</li>
                 </ul>
-              </header>
-              
-              <a href="#projects" class="jumplink pic">
-                <span class="arrow icon solid fa-chevron-right"><span>See my projects</span></span>
-                <img src="images/me.jpg" alt="" />
-              </a>
-            </article>
-
-            <article id="projects" class="panel">
-              <header>
-                <h2>Projects</h2>
-              </header>
-              <h3>Book Sharing App</h3>
-              <h4>November 2022</h4>
-              <ul>
-                <li>User authentication with Django</li>
-                <li>Database implemented with Postgres</li>
-              </ul>
-              <h3>Canadian University Course Equvalency Database</h3>
-              <h4>WIP</h4>
-              <ul>
-                <li>Web Scraping with Python</li>
-                <li>Machine Learning with Python</li>
-                <li>Database implemetation to be determined</li>
-              </ul>
             </article>
 
           <!-- Contact -->
             <article id="contact" class="panel">
-              <header>
-                <h2>Contact Me</h2>
-              </header>
-              <form action="#" method="post">
-                <div>
-                  <div class="row">
-                    <div class="col-6 col-12-medium">
-                      <input type="text" name="name" placeholder="Name" />
-                    </div>
-                    <div class="col-6 col-12-medium">
-                      <input type="text" name="email" placeholder="Email" />
-                    </div>
-                    <div class="col-12">
-                      <input type="text" name="subject" placeholder="Subject" />
-                    </div>
-                    <div class="col-12">
-                      <textarea name="message" placeholder="Message" rows="6"></textarea>
-                    </div>
-                    <div class="col-12">
-                      <input type="submit" value="Send Message" />
-                    </div>
+              <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+              <style type="text/css">
+                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+              </style>
+              <div id="mc_embed_signup">
+                  <form action="https://github.us18.list-manage.com/subscribe/post?u=8df59e907d062503fbf99c2e2&amp;id=948bedae8f&amp;f_id=003714e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      <div id="mc_embed_signup_scroll">
+                      <h2>Receive contact information by email</h2>
+                      <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+              </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+              </div>
+                <div id="mce-responses" class="clear foot">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8df59e907d062503fbf99c2e2_948bedae8f" tabindex="-1" value=""></div>
+                      <div class="optionalParent">
+                          <div class="clear foot">
+                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                              <p class="brandingLogo"><a href="http://eepurl.com/imdDhQ" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                          </div>
+                      </div>
                   </div>
-                </div>
               </form>
-            </article>
+              </div>
+              <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+              <!--End mc_embed_signup-->
+                          </article>
 
         </div>
-
+      
+      <!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>Phoebe Chong</li><li>2023</li>
+						</ul>
+					</div>
     </div>
 
   <!-- Scripts -->
